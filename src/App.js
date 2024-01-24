@@ -4,8 +4,9 @@ export default function App() {
   return (
     <div className={styles.app}>
       <header className={styles.header}>
-        <img src="/images/Ellement_logo.png" alt="logo" />
-
+        <div className={styles.logo}>
+          <img src="/images/Ellement_logo.png" alt="logo" />
+        </div>
         <nav>
           <ul>
             <li>
@@ -44,6 +45,9 @@ export default function App() {
 
       <main>
         <section>
+          <img src="/images/Ellement_background_header.jpg" alt="header" />
+        </section>
+        <section>
           <h1>Prenatals made just for you.</h1>
           <p>
             {' '}
@@ -51,40 +55,49 @@ export default function App() {
             supplement. Packed fresh each month for your unique needs during
             every stage of your journey—from preconception to postpartum.
           </p>
-          <div className={styles.buttons}>
-              <Button Box>Build Your Box</Button>
+          <div className={styles.button}>
+            <Button>Build Your Box</Button>
+          </div>
         </section>
 
         <section>
           <p>AS FEATURED BY</p>
-// ADD LOGOS
         </section>
 
         <section>
-// ADD IMG
-          <h1>Every body is unique. Your supplements should be, too.
-          </h1>
-          <p>Ellement takes all the guesswork out of prenatal vitamins. Every month, you receive custom-made daily packets that are personalized for your specific nutritional needs and context, simplifying your prenatal supplement routine.
-        </p>
-        <div className={styles.button}>
-              <Button Box>Build Your Box</Button>
+          <h1>Every body is unique. Your supplements should be, too.</h1>
+          <p>
+            Ellement takes all the guesswork out of prenatal vitamins. Every
+            month, you receive custom-made daily packets that are personalized
+            for your specific nutritional needs and context, simplifying your
+            prenatal supplement routine.
+          </p>
+          <div className={styles.button}>
+            <Button>Build Your Box</Button>
+          </div>
         </section>
 
-        <section>
-// RUNNING BANNER
-        </section>
+        <section></section>
 
         <section>
-// Testimonials
           <p>Practitioner Testimonials</p>
-          //IMG
-
         </section>
+
         <section>
           <h1>The purest prenatals ever made.</h1>
-
+          <p>The nutrients you need and nothing else</p>
+          <p>No fillers or additives</p>
+          <p>Designed by doctors</p>
+          <p>Optimized for bioavailability</p>
+          <p>Committed to quality</p>
+          <div className={styles.button}>
+            <Button>Learn More</Button>
+          </div>
         </section>
-        <section></section>
+
+        <section>
+          <h1>What if I have a unique condition?</h1>
+        </section>
         <section></section>
       </main>
 
