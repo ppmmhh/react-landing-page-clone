@@ -1,7 +1,47 @@
 .app {
   background-color: var(--color-background);
-  color: var(--color-dark);
+  color: var(--color-text-blue);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  img {
+    height: 57px;
+    width: 42px;
+  }
+}
+
+.button {
+  display: flex;
+  gap: var(--spacing);
 }
 
 .header {
+  background: var(--color-background);
+  font-style: sans-serif;
+  font-size: 19.4296px;
+  color: #2c2c2e;
+  display: flex;
+  align-items: center;
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+    }
+  }
+}
+
+.button {
+  background-image: var(--gradient);
+  border-radius: 2rem;
+  display: block;
+  padding: 2px;
+  font-weight: 600;
+
+  div {
+    background-color: var(--color-background);
+    border-radius: 2rem;
+    padding: 0.7rem 1.5rem;
+  }
 }
