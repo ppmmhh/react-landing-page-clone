@@ -1,13 +1,16 @@
 .app {
   background-color: var(--color-background);
   color: var(--color-text-blue);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 
 .logo {
   img {
-    height: 57px;
-    width: 42px;
+    height: 89px;
+    width: 217px;
+    margin-top: 43px;
+    margin-left: 57px;
+    background: transparent;
   }
 }
 
@@ -17,12 +20,13 @@
 }
 
 .header {
-  background: var(--color-background);
+  background: transparent;
   font-style: sans-serif;
   font-size: 19.4296px;
   color: #2c2c2e;
-  display: flex;
-  align-items: center;
+  text-align: end;
+  letter-spacing: normal;
+  margin-top: 70px;
 
   nav {
     ul {
