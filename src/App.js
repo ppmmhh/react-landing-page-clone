@@ -74,8 +74,16 @@ export default function App() {
 // RUNNING BANNER
         </section>
 
-        <section></section>
-        <section></section>
+        <section>
+// Testimonials
+          <p>Practitioner Testimonials</p>
+          //IMG
+
+        </section>
+        <section>
+          <h1>The purest prenatals ever made.</h1>
+
+        </section>
         <section></section>
         <section></section>
       </main>
