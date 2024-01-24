@@ -3,10 +3,10 @@ import styles from './App.module.scss';
 export default function App() {
   return (
     <div className={styles.app}>
+      <div className={styles.logo}>
+        <img src="/images/Ellement_logo.png" alt="logo" />
+      </div>
       <header className={styles.header}>
-        <div className={styles.logo}>
-          <img src="/images/Ellement_logo.png" alt="logo" />
-        </div>
         <nav>
           <ul>
             <li>
@@ -56,7 +56,7 @@ export default function App() {
             every stage of your journey—from preconception to postpartum.
           </p>
           <div className={styles.button}>
-            <Button>Build Your Box</Button>
+            <button>Build Your Box</button>
           </div>
         </section>
 
@@ -73,7 +73,7 @@ export default function App() {
             prenatal supplement routine.
           </p>
           <div className={styles.button}>
-            <Button>Build Your Box</Button>
+            <button>Build Your Box</button>
           </div>
         </section>
 
@@ -91,7 +91,7 @@ export default function App() {
           <p>Optimized for bioavailability</p>
           <p>Committed to quality</p>
           <div className={styles.button}>
-            <Button>Learn More</Button>
+            <button>Learn More</button>
           </div>
         </section>
 
